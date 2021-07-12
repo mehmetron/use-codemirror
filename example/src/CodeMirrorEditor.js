@@ -12,6 +12,7 @@ export function CodeMirrorEditor({
     ...options,
     config: {
       theme: 'demoboard-light',
+      lineNumbers: true,
       ...options.config,
     },
   })

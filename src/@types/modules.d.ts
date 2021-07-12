@@ -7,6 +7,7 @@
 
 declare module 'codemirror/mode/jsx/jsx'
 declare module 'codemirror/mode/css/css'
+declare module 'codemirror/mode/go/go'
 declare module 'codemirror/mode/markdown/markdown'
 declare module 'codemirror/mode/htmlmixed/htmlmixed'
 declare module 'codemirror/keymap/sublime'

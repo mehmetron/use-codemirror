@@ -1,6 +1,8 @@
-# use-codemirror
+# @mehmetron/use-codemirror
 
-<a href="https://www.npmjs.com/package/use-codemirror"><img alt="NPM" src="https://img.shields.io/npm/v/use-codemirror.svg"></a>
+**For of use-codemirror**
+
+<a href="https://www.npmjs.com/package/@mehmetron/use-codemirror"><img alt="NPM" src="https://img.shields.io/npm/v/use-codemirror.svg"></a>
 
 **Add the excellent [CodeMirror](https://codemirror.net/) editor to your React app with a hook.**
 

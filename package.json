@@ -1,15 +1,15 @@
 {
-  "name": "use-codemirror",
-  "version": "0.2.0",
+  "name": "@mehmetron/use-codemirror",
+  "version": "0.2.1",
   "description": "Hook based CodeMirror support for React",
-  "author": "James K Nelson <james@jamesknelson.com>",
+  "author": "Mehmet Turhan <mtcureoglu@gmail.com>",
   "license": "MIT",
   "main": "dist/commonjs/index.js",
   "module": "dist/es/index.js",
   "types": "dist/types/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesknelson/use-codemirror.git"
+    "url": "https://github.com/mehmetron/use-codemirror.git"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -20,9 +20,12 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "codemirror": "^5.49.2",
+    "cross-env": "^7.0.3",
     "tslib": "1.10.0"
   },
   "peerDependencies": {
