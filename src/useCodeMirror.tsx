@@ -394,6 +394,7 @@ class CodeMirrorInstance {
 
 const modeAliases: { [name: string]: string } = {
   js: 'jsx',
+  go: 'go',
   html: 'htmlmixed',
   md: 'markdown',
   mdx: 'markdown',
@@ -417,6 +418,7 @@ function defaultImportCodeMirrorAddons() {
   return Promise.all([
     import('codemirror/mode/jsx/jsx'),
     import('codemirror/mode/css/css'),
+    import('codemirror/mode/go/go'),
     import('codemirror/mode/markdown/markdown'),
     import('codemirror/mode/htmlmixed/htmlmixed'),
     import('codemirror/keymap/sublime'),

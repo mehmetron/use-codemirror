@@ -1,8 +1,15 @@
 # @mehmetron/use-codemirror
 
-**For of use-codemirror**
+**Fork of use-codemirror**
 
-<a href="https://www.npmjs.com/package/@mehmetron/use-codemirror"><img alt="NPM" src="https://img.shields.io/npm/v/use-codemirror.svg"></a>
+```bash
+# update version number in package.json then
+npm publish --access public
+
+
+```
+
+<a href="https://www.npmjs.com/package/@mehmetron/use-codemirror"><img alt="NPM" src="https://img.shields.io/npm/v/@mehmetron/use-codemirror.svg"></a>
 
 **Add the excellent [CodeMirror](https://codemirror.net/) editor to your React app with a hook.**
 
