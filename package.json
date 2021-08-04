@@ -1,6 +1,6 @@
 {
   "name": "@mehmetron/use-codemirror",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Hook based CodeMirror support for React",
   "author": "Mehmet Turhan <mtcureoglu@gmail.com>",
   "license": "MIT",
