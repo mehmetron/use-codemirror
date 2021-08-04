@@ -395,6 +395,7 @@ class CodeMirrorInstance {
 const modeAliases: { [name: string]: string } = {
   js: 'jsx',
   go: 'go',
+  py: 'python',
   html: 'htmlmixed',
   md: 'markdown',
   mdx: 'markdown',

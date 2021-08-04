@@ -5,7 +5,7 @@ function FileTree(props) {
     return <SubTree allFiles={props.files} {...props} />;
 }
 
-function SubTree({ files, allFiles, selectedFile, onSelect, ...props }) {
+function SubTree({deleteFile2, files, allFiles, selectedFile, onSelect, ...props}) {
     return (
         <div {...props}>
             {files.sort(sortingFunction).map((child) => (
@@ -13,7 +13,10 @@ function SubTree({ files, allFiles, selectedFile, onSelect, ...props }) {
                     <File
                         selectedFile={selectedFile}
                         allFiles={files}
-                        onClick={() => onSelect(child)}
+                        // onClick={() => onSelect(child)}
+                        child={child}
+                        onSelect={onSelect}
+                        deleteFile2={deleteFile2}
                         {...child}
                     />
                 </React.Fragment>
@@ -22,7 +25,7 @@ function SubTree({ files, allFiles, selectedFile, onSelect, ...props }) {
     );
 }
 
-function FileIcon({ name, extension }) {
+function FileIcon({name, extension}) {
     const Icon = Icons[extension] || Icons[name];
 
     const mystyle = {
@@ -35,7 +38,7 @@ function FileIcon({ name, extension }) {
 
     return (
         <span style={mystyle}>
-      <Icon />
+      <Icon/>
     </span>
     );
 }
@@ -68,7 +71,8 @@ function File(props) {
                 extension={props.name.split(".").pop()}
                 // extension={"js"}
             />
-            <span style={{ marginLeft: 1 }}>{props.name}</span>
+            <span style={{marginLeft: 1}} onClick={()=>props.onSelect(props.child)}>{props.name}</span>
+            <button onClick={()=>props.deleteFile2(props.id)}>X</button>
         </div>
     );
 }

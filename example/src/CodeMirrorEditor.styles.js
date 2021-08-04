@@ -9,7 +9,8 @@ import 'codemirror/lib/codemirror.css'
 import 'codemirror/addon/scroll/simplescrollbars.css'
 import 'codemirror/addon/dialog/dialog.css'
 import { rgba } from 'polished'
-import styled, { css } from 'styled-components/macro'
+// import styled, { css } from 'styled-components/macro'
+import styled, { css } from 'styled-components'
 
 import { colors, codeMirrorColors, fonts } from './constants'
 

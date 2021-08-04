@@ -17,6 +17,7 @@ export function CodeMirrorEditor({
     },
   })
 
+
   return (
     <StyledCodeMirrorEditor className={className} style={style}>
       <pre ref={codeMirror.ref} className={codeMirror.config.theme}>

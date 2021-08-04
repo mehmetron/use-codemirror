@@ -1,5 +1,24 @@
 import React from "react";
 
+export const py = (props) => {
+    return (
+        <i style={{color: "#FFE56B"}} className="devicon-python-plain"></i>
+    )
+};
+
+export const go = (props) => {
+    return (
+        <i style={{color: "#7FD5EA"}} className="devicon-go-plain"></i>
+    )
+};
+
+export const c = (props) => {
+    return (
+        <i className="devicon-c-plain colored"></i>
+    )
+};
+
+
 export const js = (props) => {
     return (
         <svg
@@ -75,7 +94,8 @@ export const File = (props) => (
         {...props}
     >
         <mask id="path-1-inside-1">
-            <path d="M16.5689 5H9C8.44772 5 8 5.44772 8 6V26C8 26.5523 8.44772 27 9 27H23C23.5523 27 24 26.5523 24 26V12.1587L16.5689 5ZM16 6L23 13H16V6Z" />
+            <path
+                d="M16.5689 5H9C8.44772 5 8 5.44772 8 6V26C8 26.5523 8.44772 27 9 27H23C23.5523 27 24 26.5523 24 26V12.1587L16.5689 5ZM16 6L23 13H16V6Z"/>
         </mask>
         <path
             d="M16.5689 5H9C8.44772 5 8 5.44772 8 6V26C8 26.5523 8.44772 27 9 27H23C23.5523 27 24 26.5523 24 26V12.1587L16.5689 5ZM16 6L23 13H16V6Z"
